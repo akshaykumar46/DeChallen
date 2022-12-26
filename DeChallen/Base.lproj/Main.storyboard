@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DeChallen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="black-solid-color-background" translatesAutoresizingMaskIntoConstraints="NO" id="gJ4-HR-STq">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bgO-Xb-kpl">
+                                <rect key="frame" x="0.0" y="48" width="414" height="848"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N3y-7P-D6L">
+                                        <rect key="frame" x="137" y="0.0" width="140" height="100.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="64"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doe." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awT-TJ-NZA">
+                                        <rect key="frame" x="137.5" y="120.5" width="139" height="100"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="64"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photographer and Web Designer." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVH-ci-F0K">
+                                        <rect key="frame" x="94.5" y="240.5" width="225" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="man_smoke" translatesAutoresizingMaskIntoConstraints="NO" id="KP7-cM-LqI">
+                                        <rect key="frame" x="42" y="284" width="330.5" height="423.5"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Doe." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYh-qp-0ty">
+                                        <rect key="frame" x="25" y="727.5" width="364" height="47"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mOX-KU-Rou" userLabel="ButtonView">
+                                        <rect key="frame" x="0.0" y="794.5" width="414" height="53.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwZ-qm-jq0" userLabel="Home">
+                                                <rect key="frame" x="0.0" y="0.0" width="103.5" height="53.5"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="homekit" catalog="system" title="Home">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Heavy" family="Avenir" pointSize="12"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVN-On-24v" userLabel="About">
+                                                <rect key="frame" x="103.5" y="0.0" width="103.5" height="53.5"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title="About">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Heavy" family="Avenir" pointSize="12"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xx3-6g-Vl4" userLabel="Photos">
+                                                <rect key="frame" x="207" y="0.0" width="103.5" height="53.5"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="photo" catalog="system" title="Photos">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Heavy" family="Avenir" pointSize="12"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJv-vw-Uuq" userLabel="Contact">
+                                                <rect key="frame" x="310.5" y="0.0" width="103.5" height="53.5"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="phone" catalog="system" title="Contact">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Heavy" family="Avenir" pointSize="12"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="awT-TJ-NZA" firstAttribute="centerX" secondItem="bgO-Xb-kpl" secondAttribute="centerX" id="1YX-Kf-zn2"/>
+                                    <constraint firstItem="oVH-ci-F0K" firstAttribute="centerX" secondItem="bgO-Xb-kpl" secondAttribute="centerX" id="MH0-va-bRH"/>
+                                    <constraint firstAttribute="trailing" secondItem="mOX-KU-Rou" secondAttribute="trailing" id="Ntp-Hu-Xfv"/>
+                                    <constraint firstItem="AYh-qp-0ty" firstAttribute="leading" secondItem="bgO-Xb-kpl" secondAttribute="leading" constant="25" id="ddg-AM-wMm"/>
+                                    <constraint firstItem="N3y-7P-D6L" firstAttribute="centerX" secondItem="bgO-Xb-kpl" secondAttribute="centerX" id="hoE-8E-fgi"/>
+                                    <constraint firstItem="mOX-KU-Rou" firstAttribute="leading" secondItem="bgO-Xb-kpl" secondAttribute="leading" id="iMW-qo-HTM"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="bgO-Xb-kpl" secondAttribute="trailing" id="B1g-JI-lWy"/>
+                            <constraint firstItem="bgO-Xb-kpl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IBn-T6-IsZ"/>
+                            <constraint firstAttribute="bottom" secondItem="bgO-Xb-kpl" secondAttribute="bottom" id="Vl1-dd-Mui"/>
+                            <constraint firstItem="gJ4-HR-STq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="W8C-X8-4jr"/>
+                            <constraint firstItem="bgO-Xb-kpl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bUg-LD-gGh"/>
+                            <constraint firstItem="gJ4-HR-STq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="bfe-Hs-d4f"/>
+                            <constraint firstAttribute="bottom" secondItem="gJ4-HR-STq" secondAttribute="bottom" id="qAA-iK-DXP"/>
+                            <constraint firstAttribute="trailing" secondItem="gJ4-HR-STq" secondAttribute="trailing" id="zDE-y0-gOb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="61.538461538461533" y="-34.123222748815166"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="black-solid-color-background" width="2560" height="1440"/>
+        <image name="homekit" catalog="system" width="128" height="104"/>
+        <image name="info.circle" catalog="system" width="128" height="123"/>
+        <image name="man_smoke" width="330.5" height="369"/>
+        <image name="phone" catalog="system" width="128" height="115"/>
+        <image name="photo" catalog="system" width="128" height="93"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
